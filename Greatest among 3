@@ -3,11 +3,11 @@
 int main()
 { 
 int a,b,c,d,i;
-printf("enter the lower value of sequence ");
+printf("enter the lower value of sequence:- ");
 scanf("%d",&a);
-printf("enter the upper value of sequence ");
+printf("enter the upper value of sequence:- ");
 scanf("%d",&b);
-printf("enter the difference value of sequence ");
+printf("enter the difference value of sequence:- ");
 scanf("%d",&c);
 for(i=a;i<=b;i++)
 {
