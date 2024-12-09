@@ -1,20 +1,14 @@
-#include<stdio.h>
-#include<conio.h>
-int main()
-{ 
-int a,b,c,d,i;
-printf("enter the lower value of sequence:- ");
-scanf("%d",&a);
-printf("enter the upper value of sequence:- ");
-scanf("%d",&b);
-printf("enter the difference value of sequence:- ");
-scanf("%d",&c);
-for(i=a;i<=b;i++)
-{
-printf(" %d \t",d);
-c=d+c;
-}
-printf(" the size of variable is %d bytes", sizeof(d));
+#include <stdio.h>
+int main() {
+    int num1, num2, num3;
+    printf("Enter three numbers: ");
+    scanf("%d %d %d", &num1, &num2, &num3);
+    if (num1 >= num2 && num1 >= num3) {
+        printf("The greatest number is: %d\n", num1);
+    } else if (num2 >= num1 && num2 >= num3) {
+        printf("The greatest number is: %d\n", num2);
+    } else {
+        printf("The greatest number is: %d\n", num3);
+    }
     return 0;
-    getch();
 }
